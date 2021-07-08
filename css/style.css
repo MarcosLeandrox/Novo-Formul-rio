@@ -1,0 +1,60 @@
+body  {
+    background-image: linear-gradient(to right,crimson, black);
+   
+}
+.box {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0 , 0.7);
+    padding: 10px;
+    border-radius: 15px;
+    width: 25%;
+    color: white;
+}
+fieldset {
+    border: 3px solid dodgerblue;
+}
+
+legend {
+    border: 3px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+.inputBox {
+    position: relative;
+   
+}
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+#data_nascimento {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit {
+    background-image: linear-gradient(to right,black,dodgerblue);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover {
+    background-image: linear-gradient(to right,black,crimson);
+}
